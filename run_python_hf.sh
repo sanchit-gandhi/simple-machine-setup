@@ -6,3 +6,6 @@ git clone https://github.com/huggingface/datasets.git
 
 cd /home/sanchitgandhi/transformers && git remote add upstream https://github.com/huggingface/transformers.git && pip install -e ".[flax]"
 cd /home/sanchitgandhi/datasets && pip install -e ".[streaming]"
+
+pip uninstall chex
+pip install git+https://github.com/deepmind/chex.git --upgrade --no-cache
