@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-chmod u+x run*
 ./run_git.sh
 ./run_python.sh
 ./run_python_packages.sh
