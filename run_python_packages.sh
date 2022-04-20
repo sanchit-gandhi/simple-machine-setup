@@ -9,3 +9,4 @@ pip install wheel
 pip install numpy==1.21
 pip install soundfile
 pip install librosa
+pip install torch torchaudio --extra-index-url https://download.pytorch.org/whl/cpu
