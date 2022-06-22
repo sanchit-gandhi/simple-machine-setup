@@ -1,10 +1,10 @@
 # simple-machine-setup
 
 ```
-yes | bash run_python.sh
+yes | ./run_python.sh
 source /home/sanchitgandhi/hf/bin/activate
-yes | sudo bash run_disk.sh && yes | bash run.sh
-bash /home/sanchitgandhi/simple-machine-setup/run_zsh.sh
+yes | sudo ./run_disk.sh && yes | ./run.sh
+y | bash /home/sanchitgandhi/simple-machine-setup/run_zsh.sh
 
 ```
 
