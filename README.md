@@ -4,7 +4,7 @@
 yes | ./run_python.sh
 source /home/sanchitgandhi/hf/bin/activate
 yes | sudo ./run_disk.sh && yes | ./run.sh
-yes | bash /home/sanchitgandhi/simple-machine-setup/run_zsh.sh
+bash /home/sanchitgandhi/simple-machine-setup/run_zsh.sh
 
 ```
 
