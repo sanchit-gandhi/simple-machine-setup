@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+pip install --upgrade pip
 pip install ipdb
 pip install ipython
 pip install requests
