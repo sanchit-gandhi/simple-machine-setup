@@ -31,3 +31,11 @@ source $ZSH/oh-my-zsh.sh
 
 source ~/hf/bin/activate
 ```
+
+4. Login to the HuggingFace Hub and Weights and Biases
+```bash
+huggingface-cli login
+```
+```bash
+wandb login
+```
