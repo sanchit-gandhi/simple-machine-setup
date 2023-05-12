@@ -12,3 +12,4 @@ pip install soundfile
 pip install librosa
 pip install evaluate
 pip install torch torchaudio --extra-index-url https://download.pytorch.org/whl/cpu
+pip install accelerate
