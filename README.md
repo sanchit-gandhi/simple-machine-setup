@@ -30,6 +30,8 @@ plugins=(git
 source $ZSH/oh-my-zsh.sh
 
 source ~/hf/bin/activate
+
+alias kill-jax="sudo lsof -t /dev/accel0 | xargs kill -9 && sudo pkill -9 python"
 ```
 
 4. Login to the HuggingFace Hub and Weights and Biases
