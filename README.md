@@ -3,7 +3,8 @@
 ## Set-Up Instructions
 1. Clone the `simple-machine-setup` repository:
 ```
-https://github.com/sanchit-gandhi/simple-machine-setup.git
+git clone https://github.com/sanchit-gandhi/simple-machine-setup.git
+cd simple-machine-setup
 ```
 
 2. From within the repository, run:
