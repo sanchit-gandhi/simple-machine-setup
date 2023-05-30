@@ -5,6 +5,7 @@
 ```
 git clone https://github.com/sanchit-gandhi/simple-machine-setup.git
 cd simple-machine-setup
+
 ```
 
 2. From within the repository, run:
@@ -13,7 +14,7 @@ yes | ./run_python.sh
 source /home/sanchitgandhi/hf/bin/activate
 yes | ./run.sh
 cd /home/sanchitgandhi/simple-machine-setup
-Y | ./run_zsh.sh && zsh
+yes | ./run_zsh.sh && zsh
 
 ```
 
