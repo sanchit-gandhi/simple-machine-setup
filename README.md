@@ -14,7 +14,7 @@ yes | ./run_python.sh
 source /home/sanchitgandhi/hf/bin/activate
 yes | ./run.sh
 cd /home/sanchitgandhi/simple-machine-setup
-yes | ./run_zsh.sh && zsh
+./run_zsh.sh
 
 ```
 
