@@ -3,4 +3,4 @@
 ./run_python_packages.sh
 ./run_python_hf.sh
 ./run_other_apt.sh
-./run_whisper_jax.sh
+./run_distil_whisper.sh

@@ -13,5 +13,6 @@ pip install librosa
 pip install evaluate
 pip install torch torchaudio --extra-index-url https://download.pytorch.org/whl/cpu
 pip install torchdata
+pip install accelerate
 pip install tensorboard
 pip install tensorflow-cpu

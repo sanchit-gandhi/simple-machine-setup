@@ -11,8 +11,10 @@ cd simple-machine-setup
 ```
 yes | ./run_python.sh
 source /home/sanchitgandhi/hf/bin/activate
-yes | sudo ./run_disk.sh && yes | ./run.sh
-cd /home/sanchitgandhi/simple-machine-setup && ./run_zsh.sh
+yes | ./run.sh
+cd /home/sanchitgandhi/simple-machine-setup
+Y | ./run_zsh.sh && zsh
+
 ```
 
 3. Configure zsh, first download plugins:
@@ -41,4 +43,9 @@ huggingface-cli login
 ```
 ```bash
 wandb login
+```
+
+5. Optionally, to configure the mounted disk, run:
+```bash
+cd /home/sanchitgandhi/simple-machine-setup && yes | sudo ./run_disk.sh
 ```
