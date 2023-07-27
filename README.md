@@ -1,15 +1,10 @@
 # simple-machine-setup
 
 ## Set-Up Instructions
-1. Clone the `simple-machine-setup` repository:
+1. Clone the `simple-machine-setup` repository and run the start-up script:
 ```
 git clone https://github.com/sanchit-gandhi/simple-machine-setup.git
 cd simple-machine-setup
-
-```
-
-2. From within the repository, run:
-```
 yes | ./run_python.sh
 source /home/sanchitgandhi/hf/bin/activate
 yes | ./run.sh
@@ -18,7 +13,7 @@ cd /home/sanchitgandhi/simple-machine-setup
 
 ```
 
-3. Configure zsh, first download plugins:
+2. Configure zsh, first download plugins:
 ```
 # add plugins
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
