@@ -16,3 +16,4 @@ pip install torchdata
 pip install accelerate
 pip install tensorboard
 pip install tensorflow-cpu
+pip install cached-property
