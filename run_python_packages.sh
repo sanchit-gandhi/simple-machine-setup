@@ -1,19 +1,6 @@
 #!/usr/bin/env bash
 
 pip install --upgrade pip
-pip install ipdb
-pip install ipython
-pip install requests
-pip install jiwer
-pip install wandb
-pip install wheel
-pip install numpy
-pip install soundfile
-pip install librosa
-pip install evaluate
+pip install ipdb ipython requests jiwer wandb wheel numpy soundfile librosa evaluate
 pip install torch torchaudio --extra-index-url https://download.pytorch.org/whl/cpu
-pip install torchdata
-pip install accelerate
-pip install tensorboard
-pip install tensorflow-cpu
-pip install cached-property
+pip install torchdata accelerate tensorboard tensorflow-cpu cached-property
